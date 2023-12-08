@@ -129,13 +129,18 @@ Personal Section (Start)
 #bottom-container{
     height: 75px;
     width: 100%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     text-align: center;
     padding-top: 15px;
     padding-bottom: 10px;
     box-sizing: border-box;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+#bottom-container img{
+    height: 15px;
+    width: 15px;
+    color: white;
 }
 #bottom-container a{
     color: white;
